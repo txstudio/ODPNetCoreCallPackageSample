@@ -3,6 +3,12 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>txstudio</Authors>
+    <Description>使用 ODP.NET Core 呼叫 Oracle Database Package 物件的存取範例程式碼</Description>
   </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="2.19.70" />
+  </ItemGroup>
 
 </Project>
